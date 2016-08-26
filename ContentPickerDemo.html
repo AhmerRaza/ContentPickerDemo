@@ -1,0 +1,15 @@
+<div ng-controller="ContentPickerDemo.Controller">
+
+    <div>
+        <a href="#" prevent-default ng-click="addSingle()" class="btn btn-default">Add single</a>
+        <a href="#" prevent-default ng-click="addMultiple()" class="btn btn-default">Add multiple</a>
+    </div>
+    
+    <div ng-show="model.value.items.length > 0" style="margin-top: 10px;">
+        <div ng-repeat="item in model.value.items">
+            <i class="icon {{item.icon}}"></i> {{item.name}}
+            <a href="#" prevent-default ng-click="remove($index)"><i class="icon icon-delete red"></i></a>
+        </div>
+    </div>
+
+</div>

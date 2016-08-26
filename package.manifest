@@ -1,0 +1,16 @@
+﻿{
+	"propertyEditors": [
+		{
+			"alias": "ContentPickerDemo",
+			"name": "ContentPickerDemo",
+			"editor": {
+				"view": "~/App_Plugins/ContentPickerDemo/Views/ContentPickerDemo.html",
+				"hideLabel": false,
+				"valueType": "JSON"	
+			}
+		}
+	],
+	"javascript": [
+		"~/App_Plugins/ContentPickerDemo/Controllers/ContentPickerDemo.js"
+	]
+}
